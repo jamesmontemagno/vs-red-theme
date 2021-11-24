@@ -4,6 +4,8 @@
         <Identity Id="Red.7590a965-c210-4db2-a5b1-fbf20ab7cf32" Version="1.0" Language="en-US" Publisher="James Montemagno" />
         <DisplayName>Red Theme</DisplayName>
         <Description xml:space="preserve">The only theme you need for Visual Studio. Red.</Description>
+        <MoreInfo>https://github.com/jamesmontemagno/vs-red-theme</MoreInfo>
+        <Tags>Theme, Red</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
@@ -18,5 +20,6 @@
     </Prerequisites>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Red.jsonc\Red.pkgdef" />
     </Assets>
 </PackageManifest>
