@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Red.7590a965-c210-4db2-a5b1-fbf20ab7cf32" Version="1.0" Language="en-US" Publisher="James Montemagno" />
+        <Identity Id="Red.7590a965-c210-4db2-a5b1-fbf20ab7cf32" Version="1.1" Language="en-US" Publisher="James Montemagno" />
         <DisplayName>Red Theme</DisplayName>
         <Description xml:space="preserve">The only theme you need for Visual Studio. Red.</Description>
         <MoreInfo>https://github.com/jamesmontemagno/vs-red-theme</MoreInfo>
@@ -19,7 +19,6 @@
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Red.jsonc\Red.pkgdef" />
     </Assets>
 </PackageManifest>
